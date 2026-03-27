@@ -1,196 +1,82 @@
+/* Visual Studio Settings File */
 {
-    "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": 
-            {
-                "action": "selectOutput"
-            },
-            "id": "User.selectOutput.D3F0B923"
-        },
-        {
-            "command": 
-            {
-                "action": "selectCommand"
-            },
-            "id": "User.selectCommand.D3F0B923"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "id": "User.copy.644BA8F2"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "id": "User.splitPane.A6751878"
-        }
-    ],
-    "copyFormatting": "none",
-    "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "firstWindowPreference": "defaultProfile",
-    "focusFollowMouse": false,
-    "initialCols": 120,
-    "initialRows": 40,
-    "keybindings": 
-    [
-        {
-            "id": "Terminal.OpenNewTab",
-            "keys": "ctrl+t"
-        },
-        {
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
-            "id": null,
-            "keys": "ctrl+shift+w"
-        },
-        {
-            "id": "Terminal.ClosePane",
-            "keys": "ctrl+f4"
-        },
-        {
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
-        },
-        {
-            "id": "User.selectOutput.D3F0B923",
-            "keys": "ctrl+alt+enter"
-        },
-        {
-            "id": null,
-            "keys": "ctrl+shift+t"
-        },
-        {
-            "id": "Terminal.Suggestions",
-            "keys": "alt+#"
-        },
-        {
-            "id": null,
-            "keys": "ctrl+shift+period"
-        }
-    ],
-    "launchMode": "maximized",
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
-    ],
-    "profiles": 
+  "debugging.general.justMyCode": false,
+  "debugging.general.warnIfNoUserCodeOnLaunch": false,
+  "debugging.symbols.location.cachePath": "C:\\Users\\mhommel\\AppData\\Local\\Temp\\SymbolCache",
+  "textEditor.advanced.horizontalScrollBarLocation": "alwaysInTray",
+  "copilot.general.chat.preferredModelFamily": "claude-sonnet-4.6",
+  "copilot.general.chat.maxFunctionCallIterations": 80,
+  "projectsAndSolutions.general.promptForSymbolicRename": false,
+  "languages.cpp.codeCleanup.includeCleanup.removeUnusedSuggestionLevel": "dimmed",
+  "languages.cpp.intelliSense.maximumCachedTranslationUnits": 15,
+  "languages.cpp.intelliSense.references.maxFindReferencesThreads": 14,
+  "languages.cpp.intelliSense.browsingNavigation.wholeCodebaseSemanticIndex.maximumWorkerThreads": 16,
+  "languages.cpp.intelliSense.browsingNavigation.wholeCodebaseSemanticIndex.enabled": true,
+  "languages.cpp.codeCleanup.includeCleanup.optimizeUnusedSuggestionLevel": "suggestion",
+  "languages.cpp.codeCleanup.includeCleanup.addMissingSuggestionLevel": "suggestion",
+  "languages.xml.tabs.tabSize": 2,
+  "languages.xml.scrollbars.verticalScrollBarMode": "bar",
+  "languages.xml.tabs.character": "space",
+  "languages.xml.general.wordWrapVisualGlyphs": true,
+  "languages.xml.general.lineNumbers": true,
+  "languages.xml.tabs.indentSize": 2,
+  "languages.rest.tabs.tabSize": 4,
+  "languages.rest.scrollbars.verticalScrollBarMode": "map",
+  "languages.rest.general.wordWrapVisualGlyphs": false,
+  "languages.rest.general.lineNumbers": false,
+  "languages.rest.tabs.indentSize": 4,
+  "copilot.general.chat.enableCopilotCodingAgent": false,
+  "copilot.general.chat.enableDotNetProjectSpecificInstructions": false,
+  "copilot.general.editor.enableFixWithCopilot": false,
+  "textEditor.codeCompletions.general.codeCompletionsProviders": [
+    "copilot-completions",
+    "copilot-nes",
+    "intellicode"
+  ],
+  "textEditor.codeCompletions.general.enableNextEditSuggestionsCollapsedMode": false,
+  "textEditor.codeCompletions.general.codeCompletionsInvocation": "manual",
+  "textEditor.codeCompletions.preferences.acceptPartialSuggestionLine": false,
+  "textEditor.codeCompletions.preferences.acceptPartialSuggestionWord": false,
+  "textEditor.codeCompletions.preferences.useColorizedText": false,
+  "intellicode.general.useInlineTipStyle": false,
+  "copilot.general.chat.enableMemoryDetection": false,
+  "environment.windows.toolWindows.windowLayoutSkipApplyConfirmation": true,
+  "environment.tabs.documentTabs.multiRowTabs": true,
+  "copilot.general.chat.enablePlanning": true,
+  "environment.security.trust.locations": [
     {
-        "defaults": 
-        {
-            "colorScheme": "Campbell",
-            "font": 
-            {
-                "face": "JetBrainsMono Nerd Font"
-            },
-            "intenseTextStyle": "bright",
-            "opacity": 100,
-            "useAcrylic": false
-        },
-        "list": 
-        [
-            {
-                "adjustIndistinguishableColors": "always",
-                "colorScheme": "Tango Dark",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoLogo",
-                "cursorColor": null,
-                "cursorShape": "bar",
-                "experimental.rainbowSuggestions": true,
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "cellHeight": "1.2",
-                    "face": "JetBrainsMono Nerd Font",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "intenseTextStyle": "bright",
-                "name": "PowerShell",
-                "padding": "8,8,8,200",
-                "pathTranslationStyle": "mingw",
-                "scrollbarState": "visible",
-                "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "C:\\_Projekte\\"
-            },
-            {
-                "guid": "{5138b41a-8baa-5721-b934-afed36688b6b}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{e838ee13-d7fd-51f8-a301-48344f51ce9e}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true,
-                "name": "Windows PowerShell"
-            },
-            {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": true,
-                "name": "Command Prompt"
-            },
-            {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
-            },
-            {
-                "guid": "{6d4f1dca-a73e-5683-8eb8-d438f908be0e}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{0171bae5-4bcf-5730-adb7-0b8ec327a7dd}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
-            }
-        ]
+      "location": "C:\\_Projekte\\SerilogViewer\\",
+      "locationType": "folder",
+      "trustedBy": "system"
     },
-    "schemes": [],
-    "searchWebDefaultQueryUrl": "https://www.google.com/search?q=%22%s%22",
-    "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": false,
-    "theme": "dark",
-    "themes": [],
-    "windowingBehavior": "useExisting"
+    {
+      "location": "C:\\_Projekte\\service\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    },
+    {
+      "location": "C:\\_Projekte\\PrAgent\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    },
+    {
+      "location": "C:\\_Projekte\\Indulyst\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    },
+    {
+      "location": "C:\\_Projekte\\conftrack\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    }
+  ],
+  "copilot.general.tools.toolSettings": [
+    {
+      "toolName": "run_command_in_terminal",
+      "autoExecutionMode": "Always",
+      "resetPerSolution": false
+    }
+  ],
+  "projectsAndSolutions.general.promptForNamespaceUpdate": false,
+  "windowsFormsDesigner.general.refactoring.enableRefactoringOnRename": true
 }
