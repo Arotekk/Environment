@@ -1,0 +1,82 @@
+/* Visual Studio Settings File */
+{
+  "debugging.general.justMyCode": false,
+  "debugging.general.warnIfNoUserCodeOnLaunch": false,
+  "debugging.symbols.location.cachePath": "C:\\Users\\mhommel\\AppData\\Local\\Temp\\SymbolCache",
+  "textEditor.advanced.horizontalScrollBarLocation": "alwaysInTray",
+  "copilot.general.chat.preferredModelFamily": "claude-sonnet-4.6",
+  "copilot.general.chat.maxFunctionCallIterations": 80,
+  "projectsAndSolutions.general.promptForSymbolicRename": false,
+  "languages.cpp.codeCleanup.includeCleanup.removeUnusedSuggestionLevel": "dimmed",
+  "languages.cpp.intelliSense.maximumCachedTranslationUnits": 15,
+  "languages.cpp.intelliSense.references.maxFindReferencesThreads": 14,
+  "languages.cpp.intelliSense.browsingNavigation.wholeCodebaseSemanticIndex.maximumWorkerThreads": 16,
+  "languages.cpp.intelliSense.browsingNavigation.wholeCodebaseSemanticIndex.enabled": true,
+  "languages.cpp.codeCleanup.includeCleanup.optimizeUnusedSuggestionLevel": "suggestion",
+  "languages.cpp.codeCleanup.includeCleanup.addMissingSuggestionLevel": "suggestion",
+  "languages.xml.tabs.tabSize": 2,
+  "languages.xml.scrollbars.verticalScrollBarMode": "bar",
+  "languages.xml.tabs.character": "space",
+  "languages.xml.general.wordWrapVisualGlyphs": true,
+  "languages.xml.general.lineNumbers": true,
+  "languages.xml.tabs.indentSize": 2,
+  "languages.rest.tabs.tabSize": 4,
+  "languages.rest.scrollbars.verticalScrollBarMode": "map",
+  "languages.rest.general.wordWrapVisualGlyphs": false,
+  "languages.rest.general.lineNumbers": false,
+  "languages.rest.tabs.indentSize": 4,
+  "copilot.general.chat.enableCopilotCodingAgent": false,
+  "copilot.general.chat.enableDotNetProjectSpecificInstructions": false,
+  "copilot.general.editor.enableFixWithCopilot": false,
+  "textEditor.codeCompletions.general.codeCompletionsProviders": [
+    "copilot-completions",
+    "copilot-nes",
+    "intellicode"
+  ],
+  "textEditor.codeCompletions.general.enableNextEditSuggestionsCollapsedMode": false,
+  "textEditor.codeCompletions.general.codeCompletionsInvocation": "manual",
+  "textEditor.codeCompletions.preferences.acceptPartialSuggestionLine": false,
+  "textEditor.codeCompletions.preferences.acceptPartialSuggestionWord": false,
+  "textEditor.codeCompletions.preferences.useColorizedText": false,
+  "intellicode.general.useInlineTipStyle": false,
+  "copilot.general.chat.enableMemoryDetection": false,
+  "environment.windows.toolWindows.windowLayoutSkipApplyConfirmation": true,
+  "environment.tabs.documentTabs.multiRowTabs": true,
+  "copilot.general.chat.enablePlanning": true,
+  "environment.security.trust.locations": [
+    {
+      "location": "C:\\_Projekte\\SerilogViewer\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    },
+    {
+      "location": "C:\\_Projekte\\service\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    },
+    {
+      "location": "C:\\_Projekte\\PrAgent\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    },
+    {
+      "location": "C:\\_Projekte\\Indulyst\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    },
+    {
+      "location": "C:\\_Projekte\\conftrack\\",
+      "locationType": "folder",
+      "trustedBy": "system"
+    }
+  ],
+  "copilot.general.tools.toolSettings": [
+    {
+      "toolName": "run_command_in_terminal",
+      "autoExecutionMode": "Always",
+      "resetPerSolution": false
+    }
+  ],
+  "projectsAndSolutions.general.promptForNamespaceUpdate": false,
+  "windowsFormsDesigner.general.refactoring.enableRefactoringOnRename": true
+}
